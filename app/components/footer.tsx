@@ -3,7 +3,7 @@ import Image from "next/image";
 import TwitterIcon from "./Twitter.png";
 import FacebookIcon from "./Facebook.png";
 import InstagramIcon from "./Instagram.png";
-import LinkedinIcon from "./Linkedin.png";
+import LinkedinIcon from "./LinkedIn.png";
 
 export default function Footer() {
   return (
@@ -44,7 +44,7 @@ export default function Footer() {
           <Image className="w-[25px]" src={"Instagram.png"} alt="Instagram"/>
         </a>
         <a href="#">
-          <Image className="w-[25px]" src={"Linkedin.png"} alt="Linkedin"/>
+          <Image className="w-[25px]" src={"LinkedIn.png"} alt="Linkedin"/>
         </a>
       </div>
       <hr className="border-t border-[#ADAEC3] ml-[50px] mr-[50px] mt-[30px]" />
