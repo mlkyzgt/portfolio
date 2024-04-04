@@ -1,4 +1,4 @@
-import Logo from "./Logo.png";
+import Image from 'next/image';
 
 export default function Contact() {
   return (
@@ -59,7 +59,7 @@ export default function Contact() {
           <p>Message</p>
           <textarea 
             className="border border-solid border-[#5E3BEE] rounded-md p-2 w-full h-[150px]"
-            value={"Type your message..."}
+            placeholder="Type your message..."
             name="message"
           ></textarea>
         </div>
@@ -79,4 +79,3 @@ export default function Contact() {
     </div>
   );
 }
-

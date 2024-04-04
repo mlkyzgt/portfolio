@@ -1,4 +1,6 @@
 import Logo from "./Logo.png";
+import Image from "next/image";
+
 export default function Main() {
   return (
     <>
@@ -19,10 +21,10 @@ export default function Main() {
             Get In Touch
           </button>
         </div>
-        <img
+        <Image
           className="w-[450px] h-[365px] ml-[30px]"
-          src="./profilePhoto.png"
-          alt=""
+          src="/profilePhoto.png"
+          alt="Profile Photo"
         />
       </main>
     </>

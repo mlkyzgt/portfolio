@@ -1,12 +1,14 @@
 import Logo from "./Logo.png";
+import Image from "next/image";
+
 export default function Navbar() {
   return (
     <>
       <nav className="bg-white flex h-[60px]">
         <div className="flex items-center justify-between w-full">
-          <img
+          <Image
             className="h-[40px] w-[185px] ml-[15px]"
-            src="./Logo.png"
+            src="/Logo.png"
             alt="Logo"
           />
           <div className="flex items-center justify-end">

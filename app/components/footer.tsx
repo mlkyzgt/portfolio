@@ -1,10 +1,15 @@
 import Logo from "./Logo.png";
+import Image from "next/image";
+import TwitterIcon from "./Twitter.png";
+import FacebookIcon from "./Facebook.png";
+import InstagramIcon from "./Instagram.png";
+import LinkedinIcon from "./Linkedin.png";
 
 export default function Footer() {
   return (
     <footer className="h-[240px] bg-[#F5FCFF] relative">
       <div className="flex items-center justify-between w-full pt-[50px]">
-        <img className="h-[40px] w-[185px] ml-10" src="./Logo.png" alt="Logo" />
+        <Image className="h-[40px] w-[185px] ml-10" src="/Logo.png" alt="Logo" width={185} height={40} />
       </div>
 
       <div className="flex items-center justify-center absolute top-0 left-1/2 transform -translate-x-1/2 text-center mt-[50px]">
@@ -30,16 +35,16 @@ export default function Footer() {
 
       <div className="flex items-center justify-end absolute top-0 right-0 mt-[50px] mr-10">
         <a href="#">
-          <img className="w-[25px]" src="./Twitter.png" alt="" />
+          <Image className="w-[25px]" src={TwitterIcon} alt="Twitter" width={25} height={25} />
         </a>
         <a href="#">
-          <img className="w-[25px]" src="./Facebook.png" alt="" />
+          <Image className="w-[25px]" src={FacebookIcon} alt="Facebook" width={25} height={25} />
         </a>
         <a href="#">
-          <img className="w-[25px]" src="./Instagram.png" alt="" />
+          <Image className="w-[25px]" src={InstagramIcon} alt="Instagram" width={25} height={25} />
         </a>
         <a href="#">
-          <img className="w-[25px]" src="./Linkedin.png" alt="" />
+          <Image className="w-[25px]" src={LinkedinIcon} alt="Linkedin" width={25} height={25} />
         </a>
       </div>
       <hr className="border-t border-[#ADAEC3] ml-[50px] mr-[50px] mt-[30px]" />
