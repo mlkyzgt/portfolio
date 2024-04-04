@@ -1,9 +1,6 @@
 import Logo from "./Logo.png";
 import Image from "next/image";
-import stars from "./stars.png";
-import Avatar1 from "./Avatar1.png";
-import Avatar2 from "./Avatar2.png";
-import Avatar3 from "./Avatar3.png";
+
 
 export default function Feedback() {
   return (

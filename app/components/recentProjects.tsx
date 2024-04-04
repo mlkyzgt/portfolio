@@ -29,7 +29,7 @@ export default function RecentProjects() {
       <div className="grid grid-cols-3 gap-x-8 gap-y-10 mt-[60px] mx-[auto] w-[1250px] h-[450px]">
         <div className="shadow-xl p-[20px] rounded">
           <Image
-            src={"Image1.png"}
+            src={"Image.png"}
             alt=""
             className="rounded w-[300px] h-[250px]"
           />
