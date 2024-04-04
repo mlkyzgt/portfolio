@@ -18,7 +18,7 @@ export default function RecentProjects() {
       <div className="absolute top-0 right-0">
         <button className="bg-[#E62872] text-white flex w-[200px] h-[50px] justify-center items-center rounded-[5px] text-[17px] mt-[50px] mr-[50px]">
           <Image
-            src={VectorIcon}
+            src={"Vector.png"}
             alt=""
             className="mb-[4px] mr-[8px] w-[18px] h-[18px]"
           />
@@ -29,7 +29,7 @@ export default function RecentProjects() {
       <div className="grid grid-cols-3 gap-x-8 gap-y-10 mt-[60px] mx-[auto] w-[1250px] h-[450px]">
         <div className="shadow-xl p-[20px] rounded">
           <Image
-            src={Image1}
+            src={"Image1.png"}
             alt=""
             className="rounded w-[300px] h-[250px]"
           />
@@ -44,10 +44,8 @@ export default function RecentProjects() {
           >
             View In Dribbble
             <Image
-              src={Vector2Icon}
+              src={"Vector2.png"}
               alt=""
-              width={15}
-              height={15}
               className="m-[4px] w-[15px] h-[15px]"
             />
           </a>
@@ -55,11 +53,9 @@ export default function RecentProjects() {
 
         <div className="shadow-xl p-[20px] rounded">
           <Image
-            src={Image2}
+            src={"Image2.png"}
             alt=""
-            width={300}
-            height={250}
-            className="rounded"
+            className="rounded w-[300px] h-[250px]"
           />
           <h3 className="text-[20px] font-bold mt-[25px]">App Dashboard</h3>
           <p className="text-[15px] mt-[10px]">
@@ -72,18 +68,16 @@ export default function RecentProjects() {
           >
             View In Dribbble
             <Image
-              src={Vector2Icon}
+              src={"Vector2.png"}
               alt=""
-              width={15}
-              height={15}
-              className="m-[4px]"
+              className="m-[4px] w-[15px] h-[15px]"
             />
           </a>
         </div>
 
         <div className="shadow-xl p-[20px] rounded">
           <Image
-            src={Image3}
+            src={"Image3.png"}
             alt=""
             className="rounded w-[300px] h-[250px]"
           />
@@ -98,7 +92,7 @@ export default function RecentProjects() {
           >
             View In Dribbble
             <Image
-              src={Vector2Icon}
+              src={"Vector2.png"}
               alt=""
               className="m-[4px] w-[15px] h-[15px]"
             />
