@@ -8,7 +8,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between w-full">
           <Image
             className="h-[40px] w-[185px] ml-[15px]"
-            src={Logo}
+            src={"/Logo.png"}
             alt="Logo"
           />
           <div className="flex items-center justify-end">
