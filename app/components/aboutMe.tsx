@@ -4,7 +4,7 @@ export default function AboutMe() {
   return (
     <div className="max-w-[1920px] h-[600px] pt-[30px] bg-white text-[#282938] flex">
       <div className="w-[813px] h-[550px] self-start ml-[100px]">
-        <Image className='w-[860px] h-[550px]'
+        <Image className='w-[1000px] h-[550px]'
           src="/Me.png"
           alt="About Me"
         />
