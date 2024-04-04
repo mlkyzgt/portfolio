@@ -10,16 +10,16 @@ export default function Navbar() {
             alt="Logo"
           />
           <div className="flex items-center justify-end">
-            <a className="text-[#5E3BEE] mx-3" href="">
+            <a className="text-[#5E3BEE] mx-3" href="/home">
               Home
             </a>
-            <a className="text-black mx-3" href="">
+            <a className="text-black mx-3" href="/portfolio">
               Portfolio
             </a>
-            <a className="text-black mx-3" href="">
+            <a className="text-black mx-3" href="/about">
               About Me
             </a>
-            <a className="text-black mx-3" href="">
+            <a className="text-black mx-3" href="/feedback">
               Testimonials
             </a>
           </div>

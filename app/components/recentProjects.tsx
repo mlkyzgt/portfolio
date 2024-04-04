@@ -1,4 +1,9 @@
 import Logo from "./Logo.png";
+import VectorIcon from "./Vector.png";
+import Vector2Icon from "./Vector2.png";
+import Image1 from "./Image.png";
+import Image2 from "./Image2.png";
+import Image3 from "./Image3.png";
 
 export default function RecentProjects() {
   return (
@@ -13,7 +18,7 @@ export default function RecentProjects() {
         <button className="bg-[#E62872] text-white flex w-[200px] h-[50px] justify-center items-center rounded-[5px] text-[17px] mt-[50px] mr-[50px]">
           <img
             className="w-[18px] mb-[4px] mr-[8px]"
-            src="./vector.png"
+            src={"Vector.png"}
             alt=""
           />
           Visit My Dribbble
@@ -22,7 +27,7 @@ export default function RecentProjects() {
 
       <div className="grid grid-cols-3 gap-x-8 gap-y-10 mt-[60px] mx-[auto] w-[1250px] h-[450px]">
         <div className="shadow-xl p-[20px] rounded">
-          <img className="w-full h-[250px] rounded" src="./Image.png" alt="" />
+          <img className="w-full h-[250px] rounded" src={"Image.png"} alt="" />
           <h3 className="text-[20px] font-bold mt-[25px]">Ahuse</h3>
           <p className="text-[15px] mt-[10px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -35,14 +40,14 @@ export default function RecentProjects() {
             View In Dribbble
             <img
               className="flex w-[15px] h-[15px] m-[4px]"
-              src="./Vector2.png"
+              src={"Vector2.png"}
               alt=""
             />
           </a>
         </div>
 
         <div className="shadow-xl p-[20px] rounded">
-          <img className="w-full h-[250px] rounded" src="./Image2.png" alt="" />
+          <img className="w-full h-[250px] rounded" src={"Image2.png"} alt="" />
           <h3 className="text-[20px] font-bold mt-[25px]">App Dashboard</h3>
           <p className="text-[15px] mt-[10px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -55,14 +60,14 @@ export default function RecentProjects() {
             View In Dribbble
             <img
               className="flex w-[15px] h-[15px] m-[4px]"
-              src="./Vector2.png"
+              src={"Vector2.png"}
               alt=""
             />
           </a>
         </div>
 
         <div className="shadow-xl p-[20px] rounded">
-          <img className="w-full h-[250px] rounded" src="./Image3.png" alt="" />
+          <img className="w-full h-[250px] rounded" src={"Image3.png"} alt="" />
           <h3 className="text-[20px] font-bold mt-[25px]">Easy Rent</h3>
           <p className="text-[15px] mt-[10px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -75,7 +80,7 @@ export default function RecentProjects() {
             View In Dribbble
             <img
               className="flex w-[15px] h-[15px] m-[4px]"
-              src="./Vector2.png"
+              src={"Vector2.png"}
               alt=""
             />
           </a>
