@@ -8,12 +8,12 @@ import Image3 from "./Image3.png";
 
 export default function RecentProjects() {
   return (
-    <div className="relative bg-white h-[800px] text-[#282938] pt-[50px] pr-[30px] pl-[30px]">
+    <div className="relative bg-white h-[800px] text-[#282938] pt-[50px] pr-[40px] pl-[40px]">
       <div className="pr-[20px] pl-[20px]">
         <h3 className="text-[#282938] text-[15px] font-medium">
           Recent Projects
         </h3>
-        <h1 className="text-[#282938] text-[50px] font-bold">My Portfolio</h1>
+        <h1 className="text-[#282938] text-[50px] font-bold mt-[10px]">My Portfolio</h1>
       </div>
       <div className="absolute top-0 right-0">
         <button className="bg-[#E62872] text-white flex w-[200px] h-[50px] justify-center items-center rounded-[5px] text-[17px] mt-[50px] mr-[50px]">
@@ -27,7 +27,7 @@ export default function RecentProjects() {
       </div>
 
       <div className="grid grid-cols-3 gap-x-8 gap-y-10 mt-[60px] mx-[auto] w-[1250px] h-[450px]">
-        <div className="shadow-xl p-[20px] rounded">
+        <div className="shadow-xl p-[30px] rounded">
           <Image
             src={"Image.png"}
             alt=""
@@ -51,7 +51,7 @@ export default function RecentProjects() {
           </a>
         </div>
 
-        <div className="shadow-xl p-[20px] rounded">
+        <div className="shadow-xl p-[30px] rounded">
           <Image
             src={"Image2.png"}
             alt=""
@@ -75,7 +75,7 @@ export default function RecentProjects() {
           </a>
         </div>
 
-        <div className="shadow-xl p-[20px] rounded">
+        <div className="shadow-xl p-[30px] rounded">
           <Image
             src={"Image3.png"}
             alt=""

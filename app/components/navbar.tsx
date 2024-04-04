@@ -12,16 +12,16 @@ export default function Navbar() {
             alt="Logo"
           />
           <div className="flex items-center justify-end">
-            <a className="text-[#5E3BEE] mx-3" href="/home">
+            <a className="text-[#5E3BEE] mx-3" href="/main.tsx">
               Home
             </a>
-            <a className="text-black mx-3" href="/portfolio">
+            <a className="text-black mx-3" href="/recentProjects.tsx">
               Portfolio
             </a>
-            <a className="text-black mx-3" href="/about">
+            <a className="text-black mx-3" href="/aboutMe.tsx">
               About Me
             </a>
-            <a className="text-black mx-3" href="/feedback">
+            <a className="text-black mx-3" href="/feedback.tsx">
               Testimonials
             </a>
           </div>
