@@ -35,16 +35,16 @@ export default function Footer() {
 
       <div className="flex items-center justify-end absolute top-0 right-0 mt-[50px] mr-10">
         <a href="#">
-          <Image className="w-[25px]" src={TwitterIcon} alt="Twitter" width={25} height={25} />
+          <Image className="w-[25px]" src={"Twitter.png"} alt="Twitter"/>
         </a>
         <a href="#">
-          <Image className="w-[25px]" src={FacebookIcon} alt="Facebook" width={25} height={25} />
+          <Image className="w-[25px]" src={"Facebook.png"} alt="Facebook"/>
         </a>
         <a href="#">
-          <Image className="w-[25px]" src={InstagramIcon} alt="Instagram" width={25} height={25} />
+          <Image className="w-[25px]" src={"Instagram.png"} alt="Instagram"/>
         </a>
         <a href="#">
-          <Image className="w-[25px]" src={LinkedinIcon} alt="Linkedin" width={25} height={25} />
+          <Image className="w-[25px]" src={"Linkedin.png"} alt="Linkedin"/>
         </a>
       </div>
       <hr className="border-t border-[#ADAEC3] ml-[50px] mr-[50px] mt-[30px]" />
