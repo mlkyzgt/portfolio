@@ -4,10 +4,14 @@ export default function AboutMe() {
   return (
     <div className="max-w-[1920px] h-[600px] pt-[30px] bg-white text-[#282938] flex">
       <div className="w-[813px] h-[550px] self-start ml-[100px]">
-        <Image className='w-[1000px] h-[550px]'
-          src="/Me.png"
-          alt="About Me"
-        />
+        <div className="w-[1000px] h-[550px]">
+          <Image
+            src="/Me.png"
+            alt="About Me"
+            layout="fill"
+            objectFit="cover"
+          />
+        </div>
       </div>
       <div className="pl-[150px] pr-[100px]">
         <h3 className="text-[#282938] text-[15px] font-medium mt-[30px]">
