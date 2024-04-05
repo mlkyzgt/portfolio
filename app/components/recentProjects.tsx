@@ -17,9 +17,11 @@ export default function RecentProjects() {
       <div className="absolute top-0 right-0">
         <button className="bg-[#E62872] text-white flex w-[200px] h-[50px] justify-center items-center rounded-[5px] text-[17px] mt-[50px] mr-[50px]">
           <Image
-            src={"Vector.png"}
+            width={18}
+            height={18}
+            src={"/Vector.png"}
             alt=""
-            className="mb-[4px] mr-[8px] w-[18px] h-[18px]"
+            className="mb-[4px] mr-[8px]"
           />
           Visit My Dribbble
         </button>
@@ -28,9 +30,11 @@ export default function RecentProjects() {
       <div className="grid grid-cols-3 gap-x-8 gap-y-10 mt-[60px] mx-[auto] w-[1250px] h-[450px]">
         <div className="shadow-xl p-[30px] rounded">
           <Image
-            src={"Image.png"}
+            width={300}
+            height={250}
+            src={"/Image.png"}
             alt=""
-            className="rounded w-[300px] h-[250px]"
+            className="rounded"
           />
           <h3 className="text-[20px] font-bold mt-[25px]">Ahuse</h3>
           <p className="text-[15px] mt-[10px]">
@@ -43,18 +47,22 @@ export default function RecentProjects() {
           >
             View In Dribbble
             <Image
-              src={"Vector2.png"}
+              width={15}
+              height={15}
+              src={"/Vector2.png"}
               alt=""
-              className="m-[4px] w-[15px] h-[15px]"
+              className="m-[4px]"
             />
           </a>
         </div>
 
         <div className="shadow-xl p-[30px] rounded">
           <Image
-            src={"Image2.png"}
+            width={300}
+            height={250}
+            src={"/Image2.png"}
             alt=""
-            className="rounded w-[300px] h-[250px]"
+            className="rounded"
           />
           <h3 className="text-[20px] font-bold mt-[25px]">App Dashboard</h3>
           <p className="text-[15px] mt-[10px]">
@@ -67,18 +75,22 @@ export default function RecentProjects() {
           >
             View In Dribbble
             <Image
-              src={"Vector2.png"}
+              width={15}
+              height={15}
+              src={"/Vector2.png"}
               alt=""
-              className="m-[4px] w-[15px] h-[15px]"
+              className="m-[4px]"
             />
           </a>
         </div>
 
         <div className="shadow-xl p-[30px] rounded">
           <Image
-            src={"Image3.png"}
+            width={300}
+            height={250}
+            src={"/Image3.png"}
             alt=""
-            className="rounded w-[300px] h-[250px]"
+            className="rounded"
           />
           <h3 className="text-[20px] font-bold mt-[25px]">Easy Rent</h3>
           <p className="text-[15px] mt-[10px]">
@@ -91,9 +103,11 @@ export default function RecentProjects() {
           >
             View In Dribbble
             <Image
-              src={"Vector2.png"}
+              width={15}
+              height={15}
+              src={"/Vector2.png"}
               alt=""
-              className="m-[4px] w-[15px] h-[15px]"
+              className="m-[4px]"
             />
           </a>
         </div>

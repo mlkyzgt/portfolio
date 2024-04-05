@@ -21,7 +21,9 @@ export default function Main() {
           </button>
         </div>
         <Image
-          className="w-[450px] h-[365px] ml-[50px] mr-[80px]"
+          width={450}
+          height={365}
+          className="ml-[50px] mr-[80px]"
           src="/profilePhoto.png"
           alt="Profile Photo"
         />

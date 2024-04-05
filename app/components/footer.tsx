@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer className="h-[240px] bg-[#F5FCFF] relative">
       <div className="flex items-center justify-between w-full pt-[50px]">
-        <Image className="h-[40px] w-[185px] ml-10" src="/Logo.png" alt="Logo" width={185} height={40} />
+        <Image width={185} height={40} className="ml-10" src="/Logo.png" alt="Logo"  />
       </div>
 
       <div className="flex items-center justify-center absolute top-0 left-1/2 transform -translate-x-1/2 text-center mt-[50px]">
@@ -34,16 +34,16 @@ export default function Footer() {
 
       <div className="flex items-center justify-end absolute top-0 right-0 mt-[50px] mr-10">
         <a href="#">
-          <Image className="w-[25px]" src={"Twitter.png"} alt="Twitter"/>
+          <Image width={25} height={25} src={"/Twitter.png"} alt="Twitter"/>
         </a>
         <a href="#">
-          <Image className="w-[25px]" src={"Facebook.png"} alt="Facebook"/>
+          <Image width={25} height={25} src={"/Facebook.png"} alt="Facebook"/>
         </a>
         <a href="#">
-          <Image className="w-[25px]" src={"Instagram.png"} alt="Instagram"/>
+          <Image width={25} height={25} src={"/Instagram.png"} alt="Instagram"/>
         </a>
         <a href="#">
-          <Image className="w-[25px]" src={"LinkedIn.png"} alt="Linkedin"/>
+          <Image width={25} height={25} src={"/LinkedIn.png"} alt="Linkedin"/>
         </a>
       </div>
       <hr className="border-t border-[#ADAEC3] ml-[50px] mr-[50px] mt-[30px]" />
