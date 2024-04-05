@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Contact() {
   return (
-    <div className="relative bg-white h-[900px] text-[#282938] p-[30px]">
+    <div id='contact' className="relative bg-white h-[900px] text-[#282938] p-[30px]">
       <div className="max-w-[1920px] mx-auto px-[50px]">
         <div className="text-center">
           <h3 className="text-[#282938] text-[15px] font-medium mt-[30px]">Get In Touch</h3>

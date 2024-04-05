@@ -7,7 +7,7 @@ import Image3 from "./Image3.png";
 
 export default function RecentProjects() {
   return (
-    <div className="relative bg-white h-[800px] text-[#282938] pt-[50px] pr-[40px] pl-[40px]">
+    <div id="recentProjects" className="relative bg-white h-[800px] text-[#282938] pt-[50px] pr-[40px] pl-[40px]">
       <div className="pr-[20px] pl-[20px]">
         <h3 className="text-[#282938] text-[15px] font-medium">
           Recent Projects

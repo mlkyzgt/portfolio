@@ -14,10 +14,10 @@ export default function Navbar() {
           />
         </div>
         <div className="flex items-center justify-end">
-            <a className="text-black mx-3" href="/aboutMe.tsx">About Me</a>
-            <a className="text-black mx-3" href="/main.tsx">Home</a>
-            <a className="text-black mx-3" href="/recentProjects.tsx">Portfolio</a>
-            <a className="text-black mx-3" href="/feedback.tsx">Testimonials</a>
+            <a className="text-black mx-3" href="#aboutMe">About Me</a>
+            <a className="text-black mx-3" href="#main">Home</a>
+            <a className="text-black mx-3" href="#recentProjects">Portfolio</a>
+            <a className="text-black mx-3" href="#feedback">Testimonials</a>
           </div>
       </div>
     </nav>

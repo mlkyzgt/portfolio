@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Main() {
   return (
     <>
-      <main className="bg-[#F5FCFF] max-w-[1920px] h-[600px] flex justify-center items-center">
+      <main id="main" className="bg-[#F5FCFF] max-w-[1920px] h-[600px] flex justify-center items-center">
         <div className="m-[50px]">
           <h3 className="text-[#282938] text-[15px] font-medium mt-[40px]">
             Hey, I am John
@@ -16,9 +16,8 @@ export default function Main() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             varius enim in eros elementum tristique.
           </p>
-          <button className="bg-[#5E3BEE] text-white pt-[15px] pb-[15px] pr-[20px] pl-[20px] rounded-[5px] mt-[40px]">
-            Get In Touch
-          </button>
+          
+          <a href="#contact"> <button className="bg-[#5E3BEE] text-white pt-[15px] pb-[15px] pr-[20px] pl-[20px] rounded-[5px] mt-[40px]"> Get In Touch </button></a>
         </div>
         <Image
           width={450}

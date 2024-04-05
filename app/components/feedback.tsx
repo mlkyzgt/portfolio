@@ -6,7 +6,7 @@ import Avatar3Image from "./Avatar3.png";
 
 export default function Feedback() {
   return (
-    <div className="bg-[#F5FCFF] max-w-[1920px] h-[600px] flex justify-center items-center">
+    <div id="feedback" className="bg-[#F5FCFF] max-w-[1920px] h-[600px] flex justify-center items-center">
       <div className="m-[60px]">
         <div className="m-[40px]">
           <h3 className="text-[#282938] text-[15px] font-medium mt-[60px]">

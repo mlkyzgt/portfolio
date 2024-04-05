@@ -12,22 +12,22 @@ export default function Footer() {
       </div>
 
       <div className="flex items-center justify-center absolute top-0 left-1/2 transform -translate-x-1/2 text-center mt-[50px]">
-        <a className="text-black mx-3" href="#">
+        <a className="text-black mx-3" href="#main">
           Home
         </a>
-        <a className="text-black mx-3" href="#">
+        <a className="text-black mx-3" href="#recentProjects">
           Portfolio
         </a>
-        <a className="text-black mx-3" href="#">
+        <a className="text-black mx-3" href="#aboutMe">
           About Me
         </a>
-        <a className="text-black mx-3" href="#">
+        <a className="text-black mx-3" href="#contact">
           Contact
         </a>
-        <a className="text-black mx-3" href="#">
+        <a className="text-black mx-3" href="#feedback">
           Testimonials
         </a>
-        <a className="text-black mx-3" href="#">
+        <a className="text-black mx-3" href="#recentProjects">
           Portfolio
         </a>
       </div>

@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function AboutMe() {
   return (
-    <div className="w-[1920px] mx-auto h-600px pt-30px bg-white text-gray-800 flex">
+    <div id='aboutMe' className="w-[1920px] mx-auto h-600px pt-30px bg-white text-gray-800 flex">
       <div className="w-2/5 h-550px flex items-center justify-center">
         <Image
           src="/Me.png"
