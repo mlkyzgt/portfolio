@@ -5,16 +5,16 @@ export default function Navbar() {
     <nav className="bg-white flex h-16">
       <div className="flex items-center justify-between w-full">
         <Link href="/aboutMe">
-          About Me
+          <a id="aboutMeLink" className="text-black mx-3">About Me</a>
         </Link>
         <Link href="/main">
-          Home
+          <a id="homeLink" className="text-black mx-3">Home</a>
         </Link>
         <Link href="/recentProjects">
-          Portfolio
+          <a id="portfolioLink" className="text-black mx-3">Portfolio</a>
         </Link>
         <Link href="/feedback">
-          Testimonials
+          <a id="testimonialsLink" className="text-black mx-3">Testimonials</a>
         </Link>
       </div>
     </nav>
