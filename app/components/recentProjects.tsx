@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Logo from "./Logo.png";
 import VectorIcon from "./Vector.png";
 import Vector2Icon from "./Vector2.png";
 import Image1 from "./Image.png";
